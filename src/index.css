@@ -1,6 +1,8 @@
 body {
   background: #c9d7dd;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 a {
   color: #76aac2;
@@ -40,6 +42,18 @@ header {
   margin-left: 2px;
   font-size: 15px;
 }
+.weather-app-city {
+  text-align: center;
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+main {
+  padding: 15px 0;
+}
 
 footer {
   border-top: 1px solid #c9d7dd;
@@ -47,4 +61,13 @@ footer {
   text-align: center;
   font-size: 11px;
   color: rgba(0, 0, 0, 0.6);
+}
+.parent-other-info {
+  display: flex;
+  justify-content: center;
+}
+.other-info {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
 }
