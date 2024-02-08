@@ -55,6 +55,26 @@ header {
 main {
   padding: 15px 0;
 }
+.current-icon {
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+}
+.just-temperature {
+  display: flex;
+  justify-content: center;
+}
+.current-temperature {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bolder;
+}
+.date-state {
+  text-align: center;
+}
 
 .parent-other-info {
   display: flex;
@@ -65,7 +85,7 @@ main {
   font-size: 14px;
   line-height: 20px;
 }
-strong {
+.other-info strong {
   color: rgba(0, 0, 0, 0.8);
 }
 
