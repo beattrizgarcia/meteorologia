@@ -2,7 +2,9 @@ body {
   background: #c9d7dd;
   font-family: "DM Sans", sans-serif;
 }
-
+a {
+  color: #76aac2;
+}
 .container {
   background: rgba(237, 247, 252, 0.8);
   max-width: 300px;
