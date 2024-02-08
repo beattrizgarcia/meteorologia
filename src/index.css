@@ -1,0 +1,13 @@
+body {
+  background: #c9d7dd;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  background: #edf7fc;
+  max-width: 300px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 14px 9px 21px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+}

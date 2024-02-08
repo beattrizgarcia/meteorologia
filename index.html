@@ -3,42 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Go" />
-      </form>
-    </header>
-    <main>
-        <div id="current"></div>
-      <h1>Paris</h1>
-      
-        <p id="current-icon">☁️</p>
-        <p id="current-temperature">16ºC</p>
-        <p id="date-state">Tuesday, 14:14, broken clouds</p>
-      </div>
-      <div id="other-info">
-        <br id="precipitation" />
-        Precipitation: 20%<br id="humidity" />
-        Humidity: 67 <br id="Wind" />Wind: 67 km/h
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/beattrizgarcia" target="_blank"
-        >Beatriz Garcia</a
-      >
-      and is on
-      <a href="https://github.com/beattrizgarcia/meteorologia" target="_blank"
-        >Github
-      </a>
-      and hosted on
-      <a href="https://meteorologia-shecodes.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Go" />
+        </form>
+      </header>
+      <main>
+        <div id="current">
+          <h1>Paris</h1>
+
+          <p id="current-icon">☁️</p>
+          <p id="current-temperature">16ºC</p>
+          <p id="date-state">Tuesday, 14:14, broken clouds</p>
+        </div>
+        <div id="other-info">
+          <br id="precipitation" />
+          Precipitation: 20%<br id="humidity" />
+          Humidity: 67 <br id="Wind" />Wind: 67 km/h
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/beattrizgarcia" target="_blank"
+          >Beatriz Garcia</a
+        >
+        and is on
+        <a href="https://github.com/beattrizgarcia/meteorologia" target="_blank"
+          >Github
+        </a>
+        and hosted on
+        <a href="https://meteorologia-shecodes.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
