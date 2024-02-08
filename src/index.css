@@ -60,6 +60,10 @@ main {
   text-align: center;
   margin: 0;
 }
+.weather-unit {
+  margin-top: 4px;
+  font-size: 20px;
+}
 .just-temperature {
   display: flex;
   justify-content: center;
