@@ -29,21 +29,25 @@
       </header>
       <main>
         <div class="current">
-          <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
+          <h1 class="weather-app-city" id="weather-app-city"></h1>
 
           <p class="current-icon">☁️</p>
           <div class="just-temperature">
-            <p class="current-temperature" id="current-temperature">16</p>
+            <p class="current-temperature" id="current-temperature"></p>
             <span class="weather-unit">ºC</span>
           </div>
-          <p class="date-state">Tuesday, 14:14, broken clouds</p>
+          <p class="date-state">
+            <span id="time"> </span>,
+            <span id="description"> </span>
+          </p>
         </div>
         <div class="parent-other-info">
           <p class="other-info">
-            <br id="precipitation" />
-            <strong>Precipitation</strong>: 20%<br id="humidity" />
-            <strong>Humidity</strong>: 67 <br id="Wind" /><strong>Wind</strong>:
-            67 km/h
+            <br />
+
+            <strong>Humidity</strong>: <span id="humidity"></span> <br /><strong
+              >Wind</strong
+            >: <span id="wind"> </span>
           </p>
         </div>
       </main>
