@@ -42,9 +42,12 @@ header {
   margin-left: 2px;
   font-size: 15px;
 }
+.current {
+  padding: 5px;
+}
 .weather-app-city {
   text-align: center;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   margin: 0;
   font-size: 38px;
   line-height: 48px;
@@ -70,7 +73,7 @@ main {
 }
 .current-temperature {
   text-align: center;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   margin: 0;
   font-size: 40px;
   line-height: 48px;
@@ -78,6 +81,9 @@ main {
 }
 .date-state {
   text-align: center;
+  margin-bottom: 0;
+  color: #8ab1c2;
+  font-weight: 500;
 }
 
 .parent-other-info {
@@ -85,6 +91,7 @@ main {
   justify-content: center;
 }
 .other-info {
+  margin-top: 0;
   text-align: justify;
   font-size: 14px;
   line-height: 20px;
